@@ -23,7 +23,7 @@ export const Header = () => {
               <p className="text-xs text-muted-foreground mt-1">GOVERNMENT OF INDIA</p>
             </div>
           </div>
-          
+
           <div className="text-right">
             <h2 className="text-lg font-semibold text-foreground">EMPOWERING BUSINESS, PROTECTING INVESTORS</h2>
             <div className="flex space-x-2 text-xs mt-1">
@@ -40,13 +40,13 @@ export const Header = () => {
           <div className="flex items-center space-x-4">
             <div className="relative">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-              <Input 
-                className="pl-10 w-64" 
+              <Input
+                className="pl-10 w-64"
                 placeholder="Search"
               />
             </div>
-            
-            <Button onClick={() => window.open('https://saaransh-one.vercel.app/', '_blank')} variant="outline">
+
+            <Button onClick={() => window.open('https://saaransh-admin.vercel.app/', '_blank')} variant="outline">
               Sign In / Sign Up
             </Button>
           </div>
